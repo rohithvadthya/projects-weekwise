@@ -12,8 +12,7 @@ app.use(cors());
 
 const SECRET_KEY = 'my_super_secret_123!';
 
-let PORT=3000;
-// Connect to MongoDB database
+// Connect to MongoDB
 mongoose.connect('mongodb://127.0.0.1:27017/auctionDB');
 
 // User Schema
